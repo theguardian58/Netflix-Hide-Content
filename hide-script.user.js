@@ -32,14 +32,17 @@ $(document).ready(function() {
         });
         scope.find('[data-tracking-uuid]').closest('.title-card-container').append('<div class="flag">&#127988;</div>');
         scope.find('.flag').click(function(){
-            $(this).closest('.title-card-container').hide();
-            var id = $(this).closest('.title-card-container').find('[data-ui-tracking-context').data('ui-tracking-context');
+            var card = $(this).closest('.title-card-container')
+            var id = card.find('[data-ui-tracking-context]').data('ui-tracking-context');
             id= JSON.parse(decodeURI(id));
             id = id.video_id;
-            localStorage.setItem(id,"local-storage");
-            $(this).closest('.title-card-container').hide();
-            console.log(id);
-            console.log(localStorage.getItem(id));
+            var name = card.find('[aria-label]').attr('aria-label');
+            if(!localStorage.getItem(id)) {
+                localStorage.setItem(id,name);
+                console.log(id);
+                console.log(name);
+                card.hide();
+            }
         });
     }
 
