@@ -19,4 +19,4 @@ Ao clicar nesta bandeira, você está marcando este filme como impróprio para v
 2. Existirão filmes faltando na tela:  
 ![image](https://user-images.githubusercontent.com/95828579/145470859-24fd9f57-1100-46bf-b846-18e58fb494b2.png)  
 Todos os filmes que foram marcados desaparecerão, mostrando apenas o espaço vazio no lugar.
-3. Filmes já pré selecionados: Já existem filmes pré selecionados para sumirem da tela de todos que instalam o script. Você pode fazer uma pequena modificação no script se não quiser essa lista pré-selecionada, ou pode contribuir sugerindo novos filmes para serem bloqueados para todos.
+3. Filmes já pré selecionados: Já existem [filmes pré selecionados](https://raw.githubusercontent.com/theguardian58/Netflix-Hide-Content/main/ban-list.json) para sumirem da tela de todos que instalam o script. Você pode fazer uma pequena modificação no script se não quiser essa lista pré-selecionada, ou pode contribuir sugerindo novos filmes para serem bloqueados para todos.
