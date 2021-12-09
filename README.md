@@ -19,4 +19,4 @@ By clicking on this flag, you are marking that movie as inapropriate for you to 
 2. There are missing movies on the grid:  
 ![image](https://user-images.githubusercontent.com/95828579/145470859-24fd9f57-1100-46bf-b846-18e58fb494b2.png)  
 All flaged movies will now appear as missing movies on the grid.
-3. Pre flagged movies: There is a preloaded list of flagged movies here. This is an ever changing list, and you can make a small change in the script to not use it if you want only your local selection. You can also contribute by proposing new movies and the reason to flag them.
+3. Pre flagged movies: There is a preloaded list of flagged movies [here](https://raw.githubusercontent.com/theguardian58/Netflix-Hide-Content/main/ban-list.json). This is an ever changing list, and you can make a small change in the script to not use it if you want only your local selection. You can also contribute by proposing new movies and the reason to flag them.
